@@ -49,6 +49,7 @@ body {
   cursor: pointer;
   transition: transform 0.3s, background-color 0.3s;
   position: relative;
+  text-align: center;
 }
 
 .button:not(.terug)::after {
@@ -98,4 +99,14 @@ body {
   color: #63510b;
   text-decoration: none;
   margin-bottom: 90px;
+}
+
+.balloon-image {
+  position: absolute;
+  bottom: -420px;
+  left: 40%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: auto;
+  color: #5b4f11;
 }
